@@ -3,9 +3,9 @@ package main.java.app.model;
 import java.util.*;
 
 public class Graph {
-    List<String> vertices = new ArrayList<>();
-    List<Edge> edges = new ArrayList<>();
-    Map<String, List<Edge>> adjacencyList = new HashMap<>();
+    public List<String> vertices = new ArrayList<>();
+    public List<Edge> edges = new ArrayList<>();
+    public Map<String, List<Edge>> adjacencyList = new HashMap<>();
 
     public void addVertex(String v) {
         if (!vertices.contains(v)) {

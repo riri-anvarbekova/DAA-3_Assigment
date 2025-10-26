@@ -1,8 +1,8 @@
 package main.java.app.model;
 
 public class Edge implements Comparable<Edge> {
-    String from, to;
-    int weight;
+    public String from, to;
+    public int weight;
 
     public Edge(String from, String to, int weight) {
         this.from = from;
